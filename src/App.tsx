@@ -23,7 +23,6 @@ function App() {
             .then(json => setGet(json))
     }, []);
 
-
     return (
         <div>
             <Button name={'CleanPage'} callback={getRequestHandler}/>
